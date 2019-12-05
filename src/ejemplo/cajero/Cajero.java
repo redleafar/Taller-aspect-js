@@ -92,7 +92,7 @@ public class Cajero {
 		comandos.add(new ComandoListarCuentas());
 		comandos.add(new ComandoRetirar());
 		comandos.add(new ComandoConsignar());
-		comandos.add(new ComandoTransferir());
+		//comandos.add(new ComandoTransferir());
 
 		return comandos;
 	}
